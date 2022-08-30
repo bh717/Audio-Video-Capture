@@ -1,0 +1,206 @@
+h2 {
+  font-family: Ubuntu, sans-serif;
+}
+body, html {
+    margin: 0px;
+    width: 300px;
+    background-color: #61595e;
+}
+input{
+    padding-left: 10%;
+    margin-top: 5px;
+    margin-left: 5;
+    border-width: 1px;
+    justify-content: center;
+    width: 90%;
+    color: #FFF;
+    background-color: #61595e;
+}
+label {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-color: #FFF;
+    color: #FFF;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 5px;
+}
+textarea{
+    height: 92px;
+    width: calc(100% - 6px) ;
+    border-radius: 5px;
+    resize: none;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #61595e;
+}
+#descrip_text
+{
+  height: 50px;
+  width: calc(100% - 6px) ;
+  border-radius: 5px;
+  resize: none;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #61595e;
+}
+
+#btn_mark{
+  width: 20%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background: #FFF;
+  border-radius: 5px;
+  border-color: black;
+  border-style: outset;
+  border-width: 1px;
+  color: dark;
+
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 4px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+#start{
+  display: flex;
+  width: 20%;
+  background: #FFF;
+  border-radius: 5px;
+  border-color: black;
+  border: 1px;
+  height: 40px;
+  color: dark;
+  font-family: Roboto;
+  font-weight: 600;
+  border-width: 1px;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 4px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+#pause{
+  display: flex;
+  width: 20%;
+  background: #FFF;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  justify-content: center;
+  height: 40px;
+  color: dark;
+  font-family: Roboto;
+  font-weight: 600;
+  border: 1px;
+  font-size: 30px;
+  margin-top: 4px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+#finish{
+  display: flex;
+  width: 20%;
+  background: #FFF;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  justify-content: center;
+  height: 40px;
+  color: dark;
+  font-family: Roboto;
+  font-weight: 600;
+  border: 1px;
+  font-size: 30px;
+  margin-top: 4px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+#cancel{
+  display: flex;
+  width: 20%;
+  background: #FFF;
+  justify-content: center;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  height: 40px;
+  color: dark;
+  font-family: Roboto;
+  font-weight: 600;
+  border: 1px;
+  font-size: 30px;
+  margin-top: 4px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+#body {
+    padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid darkred;
+  white-space: nowrap;
+}
+
+.header img {
+  height: 50px;
+  margin: 0 20px 0 0;
+}
+
+
+
+#audio_div
+{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+#audio_control
+{
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+  display: none;
+}
+#status
+{
+  font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 11px;
+    display: block;
+    margin-top: 19px;
+    text-align: center;
+}
+#note_text{
+  overflow-y:scroll;
+  height: 120px;
+  width: calc(100% - 6px) ;
+  border-radius: 5px;
+  resize: none;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #61595e;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+}
+#buttonContainer
+{
+  border-style: solid;
+  border-color: #FFF;
+  border-width: thin;
+  border-radius: 5px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Chrome Audio Capture</title>
+    <script src="../js/popup.js"></script>
+    <link rel="stylesheet" href="../css/popup.css" type="text/css">
+  </head>
+  <body>
+    <div id='body'>
+      <div class="header">
+        <img src="./icon.png"/> 
+        <h1>Audio Capture</h1>
+      </div>
+      <div>
+        <label>Date&Time:</label>
+        <input id="title_date"  type="datetime-local" >
+      </div>
+
+      <label>Description</label>
+      <textarea id="descrip_text"></textarea>
+
+      <div id="buttonContainer">
+        <div class="button" id="btn_mark">M</div>
+        <div class="button" id="start">S</div>
+        <div class="button" id="finish">F</div>
+        <div class="button" id="cancel">C</div>
+      </div>
+      <label>Audio Marks</label>
+
+      <select id="note_text" multiple>
+      </select> 
+      <div id="status">
+      </div>
+     <audio id = "audio_control" controls>
+        <source src="" type="audio/mpeg">
+    </audio>
+      </div>
+  </body>
+</html>
